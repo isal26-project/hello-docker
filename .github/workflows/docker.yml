@@ -21,6 +21,7 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t isal26/hello-docker:latest .
+        
 
       - name: Push Docker image
         run: docker push isal26/hello-docker:latest
